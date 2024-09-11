@@ -1,0 +1,12 @@
+import { Text, View } from "react-native";
+export default function Bio({ BioText }){
+    return <View> 
+        <p
+            style={{
+                color:"green",
+                width: "70%",
+                textAlign:"center",
+
+            }}>{BioText}</p>
+    </View>
+};
